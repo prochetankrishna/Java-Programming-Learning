@@ -1,4 +1,4 @@
-package basicMultiThreading.interrupt;
+package multithreading.interrupt;
 
 public class InterruptExample {
 

@@ -1,3 +1,5 @@
+package multithreading.synchronization;
+
 class GreetDisplayStatic {
 
     public static synchronized void wish(String personName) {

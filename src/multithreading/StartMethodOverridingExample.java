@@ -1,4 +1,4 @@
-package basicMultiThreading;
+package multithreading;
 
 class Game extends Thread {
 

@@ -1,4 +1,4 @@
-package basicMultiThreading;
+package multithreading;
 
 //Not Guaranteed
 public class ThreadPrioritiesExample {

@@ -1,3 +1,5 @@
+package multithreading.synchronization;
+
 class DisplayNumberCharacter {
 
     public synchronized void displayNumber() {

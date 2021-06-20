@@ -1,4 +1,4 @@
-package basicMultiThreading;
+package multithreading;
 
 class PrinterThread extends Thread {
 

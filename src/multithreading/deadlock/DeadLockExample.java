@@ -1,4 +1,4 @@
-package basicMultiThreading.deadlock;
+package multithreading.deadlock;
 
 class ChildThread extends Thread {
 
