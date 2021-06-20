@@ -1,0 +1,15 @@
+interface IntSupplier {
+    int getAsInt();
+}
+
+interface LongSupplier {
+    long getAsLong();
+}
+
+interface DoubleSupplier {
+    double getAsDouble();
+}
+
+interface BooleanSupplier {
+    boolean getAsBoolean();
+}

@@ -1,0 +1,93 @@
+***********************************Predicate******************************************
+interface IntPredicate {
+
+    boolean test (int i);
+}
+
+interface LongPredicate {
+
+    boolean test (long l);
+}
+
+interface DoublePredicate {
+
+    boolean test (double d);
+}
+**************************************************************************************
+***********************************Function*******************************************
+interface IntFunction<R> {
+
+    R apply (int i);
+}
+
+interface LongFunction<R> {
+
+    R apply (long l);
+}
+
+interface DoubleFunction<R> {
+
+    R apply (double d);
+}
+
+interface ToIntFunction<T> {
+
+    int applyAsInt(T t);
+}
+
+interface ToLongFunction<T> {
+
+    long applyAsLong(T t);
+}
+
+interface ToDoubleFunction<T> {
+
+    double applyAsDouble(T t);
+}
+
+interface IntToLongFunction {
+
+    long applyAsLong(int i);
+}
+
+interface IntToDoubleFunction {
+
+    double applyAsDouble(int i);
+}
+
+interface LongToIntFunction {
+
+    int applyAsInt(long l);
+}
+
+interface LongToDoubleFunction {
+
+    double applyAsDouble(long l);
+}
+
+interface DoubleToIntFunction {
+
+    int applyAsInt(double d);
+}
+
+interface DoubleToLongFunction {
+
+    long applyAsLong(double d);
+}
+**************************************************************************************
+********************************Bi Function*******************************************
+interface ToIntBiFunction<T, U> {
+
+    int applyAsInt(T t, U u);
+}
+
+interface ToLongBiFunction<T, U> {
+
+    long applyAsLong(T t, U u);
+}
+
+interface ToDoubleBiFunction<T, U> {
+
+    double applyAsDouble(T t, U u);
+}
+**************************************************************************************

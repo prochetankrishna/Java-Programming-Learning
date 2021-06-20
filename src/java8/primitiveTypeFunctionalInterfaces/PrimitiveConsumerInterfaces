@@ -1,0 +1,24 @@
+interface IntConsumer {
+    void accept (int i);
+}
+
+interface LongConsumer {
+    void accept (long l);
+}
+
+interface DoubleConsumer {
+    void accept (double d);
+}
+
+interface ObjIntConsumer <T> {
+    void accept (T t, int i);
+}
+
+interface ObjLongConsumer <T> {
+    void accept (T t, long l);
+}
+
+interface ObjDoubleConsumer <T> {
+    void accept (T t, double d);
+}
+
